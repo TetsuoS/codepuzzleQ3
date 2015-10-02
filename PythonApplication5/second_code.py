@@ -20,9 +20,9 @@
 
 
             count = 0
-            if is_black(c0):
+            if self.is_black(c0):
                  count=count+1
-            if is_black(c2):
+            if self.is_black(c2):
                  count=count+1
 
             new_list[i] = table[count%2][c1]
